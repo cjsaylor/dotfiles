@@ -1,6 +1,6 @@
 [user]
 	name = Chris Saylor
-	email = christopher.saylor@zumba.com
+	email = cjsaylor@gmail.com
 [alias]
 	caa = commit -a --amend -C HEAD
 	stat = status

@@ -1,3 +1,0 @@
-alias servicetest="phpunit -c ~/Projects/service/contrib/phpunit.xml"
-alias vcomstart='vboxmanage startvm "Ubuntu 11.10 Server" --type headless'
-alias vcomstop='vboxmanage controlvm "Ubuntu 11.10 Server"'
