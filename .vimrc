@@ -1,4 +1,4 @@
- Vim settings instead of Vi
+" Vim settings instead of Vi
 set nocompatible
 
 " indent width
