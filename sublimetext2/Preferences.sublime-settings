@@ -1,26 +1,30 @@
 {
-	"auto_complete_selector": "source, text",
-	"bold_folder_labels": true,
-	"color_scheme": "Packages/Theme - Flatland/Flatland Monokai.tmTheme",
-	"ensure_newline_at_eof_on_save": true,
-	"file_exclude_patterns":
-	[
-		".DS_Store"
-	],
-	"flatland_square_tabs": true,
-	"font_face": "SourceCodePro-Light",
-	"font_options":
-	[
-		"no_bold",
-		"subpixel_antialias"
-	],
-	"font_size": 13.0,
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"theme": "Flatland Dark.sublime-theme",
-	"tree_animation_enabled": false
+    "auto_complete_selector": "source, text",
+    "bold_folder_labels": true,
+    "ensure_newline_at_eof_on_save": true,
+    "file_exclude_patterns":
+    [
+        ".DS_Store"
+    ],
+    "font_face": "SourceCodePro-Light",
+    "font_options":
+    [
+        "no_bold",
+        "subpixel_antialias"
+    ],
+    "font_size": 15.0,
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "hot_exit": false,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "theme": "Spacegray.sublime-theme",
+    "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+    "tree_animation_enabled": false,
+	"auto_complete_commit_on_tab": true,
+	"close_windows_when_empty": true,
+	"translate_tabs_to_spaces": true,
+    "enable_telemetry": false,
 }
