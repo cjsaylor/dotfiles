@@ -1,30 +1,31 @@
 {
-    "auto_complete_selector": "source, text",
-    "bold_folder_labels": true,
-    "ensure_newline_at_eof_on_save": true,
-    "file_exclude_patterns":
-    [
-        ".DS_Store"
-    ],
-    "font_face": "SourceCodePro-Light",
-    "font_options":
-    [
-        "no_bold",
-        "subpixel_antialias"
-    ],
-    "font_size": 15.0,
-    "highlight_line": true,
-    "highlight_modified_tabs": true,
-    "hot_exit": false,
-    "ignored_packages":
-    [
-        "Vintage"
-    ],
-    "theme": "Spacegray.sublime-theme",
-    "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
-    "tree_animation_enabled": false,
 	"auto_complete_commit_on_tab": true,
+	"auto_complete_selector": "source, text",
+	"bold_folder_labels": true,
 	"close_windows_when_empty": true,
+	"color_scheme": "Packages/User/base16-ocean.dark (SL).tmTheme",
+	"enable_telemetry": false,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		".DS_Store"
+	],
+	"font_face": "SourceCodePro-Light",
+	"font_options":
+	[
+		"no_bold",
+		"subpixel_antialias"
+	],
+	"font_size": 15.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true,
-    "enable_telemetry": false,
+	"tree_animation_enabled": false,
+	"rulers": [80, 120]
 }
