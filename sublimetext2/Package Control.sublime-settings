@@ -1,13 +1,14 @@
 {
 	"installed_packages":
 	[
-		"CoffeeScript",
 		"DocBlockr",
 		"GitGutter",
 		"Github Tools",
 		"Package Control",
-		"PHPUnit Completions",
+		"SideBarEnhancements",
 		"SublimeCodeIntel",
-		"Theme - Flatland"
+		"SublimeLinter",
+		"SublimeLinter-php",
+		"Theme - Spacegray"
 	]
 }
