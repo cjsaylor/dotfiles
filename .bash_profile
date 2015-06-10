@@ -1,11 +1,3 @@
-# Linux
-if [ -f ~/etc/bash_completion.d/git ]; then
-	source /etc/bash_completion.d/git
-# Mac
-else
-	source /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-prompt.sh
-fi
-
 RED="\[\033[0;31m\]"
 YELLOW="\[\033[0;33m\]"
 GREEN="\[\033[0;32m\]"
@@ -19,6 +11,10 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-if [ -f /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-completion.bash ]; then
-    . /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-completion.bash
+# git tab completion (homebrew)
+if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
+    . `brew --prefix`/etc/bash_completion.d/git-completion.bash
+fi
+if [ -f `brew --prefix`/etc/bash_completion.d/git-prompt.sh ]; then
+    source `brew --prefix`/etc/bash_completion.d/git-prompt.sh
 fi
