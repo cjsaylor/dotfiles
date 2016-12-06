@@ -1,0 +1,14 @@
+{
+	"Docblock": {
+		"prefix": "/**",
+		"body": [
+			"/**",
+			" * ${1:description}",
+			" *",
+			" * @param ${2:param}",
+			" * @return ${3:return}",
+			" */"
+		],
+		"description": "Simple docblock"
+	}
+}

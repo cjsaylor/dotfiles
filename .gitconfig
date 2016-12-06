@@ -28,4 +28,4 @@
 [merge]
 	stat = true
 [core]
-	excludesfile = /Users/cjsaylor/.gitignore_global
+	excludesfile = /Users/christophersaylor/.gitignore_global

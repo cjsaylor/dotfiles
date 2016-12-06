@@ -1,0 +1,10 @@
+EditorConfig.EditorConfig
+HookyQR.beautify
+HvyIndustries.crane
+PeterJausovec.vscode-docker
+akamud.vscode-theme-onedark
+dbaeumer.jshint
+felixfbecker.php-debug
+linyang95.php-symbols
+ms-vscode.atom-keybindings
+ziyasal.vscode-open-in-github

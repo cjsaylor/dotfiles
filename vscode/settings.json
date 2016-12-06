@@ -1,0 +1,23 @@
+// Place your settings in this file to overwrite the default settings
+{
+	"editor.fontFamily": "SourceCodePro-Light",
+	"editor.fontSize": 15,
+	"editor.glyphMargin": true,
+	"editor.renderWhitespace": "boundary",
+	"editor.folding": false,
+	"editor.scrollBeyondLastLine": false,
+	"editor.rulers": [80],
+	"telemetry.enableTelemetry": false,
+	"editor.quickSuggestionsDelay": 200,
+	"files.trimTrailingWhitespace": true,
+	"explorer.openEditors.visible": 0,
+	"editor.insertSpaces": false,
+	// External Terminal
+	"terminal.external.osxExec": "iTerm.app",
+	// PHP
+	"php.validate.run": "onType",
+	"crane.showStatusBarBugReportLink": false,
+	"workbench.statusBar.visible": true,
+	"workbench.sideBar.location": "left",
+	"git.confirmSync": false
+}
