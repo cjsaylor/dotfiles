@@ -48,3 +48,10 @@ export ZUMBA_VBOX_MEM=4096
 export ZUMBA_DEV_MYSQL=True
 export ZUMBA_DEV_MONGO=True
 export ZUMBA_DEV_ELASTICSEARCH=True
+
+# custom functions
+function notifyme() {
+    local message="${1}"
+    local title="${2:-"Notification"}"
+    osascript -e "display notification \"${message}\" with title \"${title}\""
+}
