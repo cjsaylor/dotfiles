@@ -1,10 +1,18 @@
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
 [user]
 	name = Chris Saylor
 	email = cjsaylor@gmail.com
+	signingkey = 5A86A16C
 [alias]
+	cs = commit -S
+	rb = rebase -S
 	caa = commit -a --amend -C HEAD
 	stat = status
 	co = checkout
+	ls = log --show-signature
 	tree = log --graph --decorate --pretty=oneline --abbrev-commit
 [color]
 	ui = auto
@@ -29,3 +37,7 @@
 	stat = true
 [core]
 	excludesfile = /Users/christophersaylor/.gitignore_global
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/local/bin/gpg
