@@ -1,23 +1,50 @@
 // Place your settings in this file to overwrite the default settings
 {
 	"editor.fontFamily": "SourceCodePro-Light",
-	"editor.fontSize": 15,
+	"editor.fontSize": 16,
 	"editor.glyphMargin": true,
 	"editor.renderWhitespace": "boundary",
 	"editor.folding": false,
 	"editor.scrollBeyondLastLine": false,
-	"editor.rulers": [80],
+	"editor.rulers": [
+		80
+	],
 	"telemetry.enableTelemetry": false,
 	"editor.quickSuggestionsDelay": 200,
 	"files.trimTrailingWhitespace": true,
 	"explorer.openEditors.visible": 0,
 	"editor.insertSpaces": false,
+	"window.newWindowDimensions": "maximized",
 	// External Terminal
 	"terminal.external.osxExec": "iTerm.app",
 	// PHP
 	"php.validate.run": "onType",
-	"crane.showStatusBarBugReportLink": false,
+	"php.validate.executablePath": "/usr/local/opt/php71/bin/php",
 	"workbench.statusBar.visible": true,
 	"workbench.sideBar.location": "left",
-	"git.confirmSync": false
+	"git.confirmSync": false,
+	"search.exclude": {
+		"**/bower_components": true
+	},
+	"go.gopath": "/Users/christophersaylor/go",
+	"terminal.integrated.shellArgs.osx": [
+		"-l"
+	],
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.fontSize": 14,
+	"php.suggest.basic": false,
+	"workbench.activityBar.visible": true,
+	"workbench.colorTheme": "Dracula",
+	"workbench.iconTheme": "vs-seti",
+	"window.zoomLevel": 0,
+	"editor.snippetSuggestions": "top",
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.renderIndentGuides": false,
+	"editor.minimap.enabled": false,
+	"atomKeymap.promptV3Features": true,
+	"editor.formatOnPaste": true,
+	"workbench.editor.enablePreviewFromQuickOpen": false,
+	"workbench.startupEditor": "none",
+	"workbench.tips.enabled": false,
+	"extensions.ignoreRecommendations": true,
 }
